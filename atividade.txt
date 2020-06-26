@@ -1,0 +1,16 @@
+class Veiculo:
+
+  def ligar(self):
+    print('Ligando....')
+
+  def acelerar(self):
+    print('Acelerando....')
+
+  def desligar(self):
+    print('Desligando....')
+
+
+car = Veiculo()
+car.ligar()
+car.acelerar()
+car.desligar()

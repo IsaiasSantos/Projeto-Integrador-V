@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html class="lato-font-loaded" lang="pt-BR">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <!-- <script src="arquivos/nr-1167.js"></script> -->
+  <!-- <script async="" src="arquivos/analytics.js"></script> -->
+  <title>Semana: PROGRAMAÇÃO DE COMPUTADORES - ILP001</title>
+  <!--[if lte IE 9]> <meta http-equiv=refresh content="0; URL=/ie-9-is-not-supported.html" /> <![endif]-->
+  <link rel="shortcut icon" type="image/x-icon" href="#">
+  <link rel="apple-touch-icon" href="#">
+
+  <link rel="stylesheet" media="all" href="arquivos/common-fd73ec6ea0.css">
+  <script>
+    //<![CDATA[
+
+!function(){
+  var o,s,v;
+  if (!(window.Promise && Object.assign && Object.values && [].find && [].includes && (o={},s=Symbol(),v={},o[s]=v,o[s]===v) && (function f(){}).bind().name==='bound f')) {
+    s = 's', document.write('<'+s+'cr'+'ipt src="/dist/ie11-polyfill-b4fe3f1a56.js"></'+s+'c'+'ript>');
+  }
+}();
+
+//]]>
+</script>
+  <script src="arquivos/lato-fontfaceobserver-8e3b53becb.js" async="async"></script>
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#303031">
+  <link rel="stylesheet" media="all" href="arquivos/wiki_page-46e7e026f6.css">
+
+  <link rel="stylesheet" media="all" href="arquivos/download.css">
+  <script>
+    function _earlyClick(e){
+      var c = e.target
+      while (c && c.ownerDocument) {
+        if (c.getAttribute('href') == '#' || c.getAttribute('data-method')) {
+          e.preventDefault()
+          (_earlyClick.clicks = _earlyClick.clicks || []).push(c)
+          break
+        }
+        c = c.parentNode
+      }
+    }
+    document.addEventListener('click', _earlyClick)
+  </script>
+  <script src="arquivos/variables-b7abd891db84754772e26cbf3eab6cd5.js" defer="defer"></script>
+  <script src="arquivos/vendor.js" defer="defer"></script>
+  <script src="arquivos/Sao_Paulo-db439c650d.js" defer="defer"></script>
+  <script src="arquivos/pt_BR-78cd8bebd1.js" defer="defer"></script>
+  <script src="arquivos/pt-br.js" defer="defer"></script>
+  <script src="arquivos/appBootstrap.js" defer="defer"></script>
+  <script src="arquivos/common.js" defer="defer"></script>
+  <script src="arquivos/wiki_page_show.js" defer="defer"></script>
+  <style type="text/css"></style>
+  <link href="arquivos/all.css" rel="stylesheet">
+  <link href="arquivos/prism.css" rel="stylesheet">
+  <script src="arquivos/react.js" type="text/javascript"></script>
+  <script src="arquivos/react-dom.js" type="text/javascript"></script>
+  <script src="arquivos/react.js" type="text/javascript"></script>
+  <script src="arquivos/react-dom.js" type="text/javascript"></script>
+  <script src="arquivos/react.js" type="text/javascript"></script>
+  <script src="arquivos/react-dom.js" type="text/javascript"></script>
+  <script src="arquivos/react.js" type="text/javascript"></script>
+  <script src="arquivos/react-dom.js" type="text/javascript"></script>
+</head>
+
+<body class="with-left-side course-menu-expanded padless-content pages primary-nav-expanded context-course_1672 show webkit safari ff no-touch">
+
+  <noscript>
+    <div role="alert" class="ic-flash-static ic-flash-error">
+      <div class="ic-flash__icon" aria-hidden="true">
+        <i class="icon-warning"></i>
+      </div>
+      <h1>Você precisa ter JavaScript ativado para ter acesso a essa página.</h1>
+    </div>
+  </noscript>
+
+
+
+
+
+  <ul id="flash_message_holder"></ul>
+  <div id="flash_screenreader_holder" role="alert" aria-live="assertive" aria-relevant="additions" class="screenreader-only" aria-atomic="false"></div>
+
+  <div id="application" class="ic-app">
+
+    <header id="header" class="ic-app-header no-print ">
+      <a href="#content" id="skip_navigation_link">Pular para Conteúdos</a>
+      <div role="region" class="ic-app-header__main-navigation" aria-label="Navegação Principal">
+        <div class="ic-app-header__logomark-container">
+          <a href="#" class="ic-app-header__logomark">
+            <span class="screenreader-only">Painel de ferramentas</span>
+          </a>
+        </div>
+        <ul id="menu" class="ic-app-header__menu-list">
+          <li class="menu-item ic-app-header__menu-list-item ">
+            <a id="global_nav_profile_link" href="#" class="ic-app-header__menu-list-link">
+              <div class="menu-item-icon-container" aria-hidden="true">
+                <div class="ic-avatar ">
+                  <i class="fas fa-user"></i>
+                  <!-- <img src="arquivos/PTRgM2PXJjovuDl1BWxdBLurIPRbBaFjf2dnGe6F.png" alt="Isaias Izidorio dos Santos"> -->
+                </div>
+              </div>
+              <div class="menu-item__text">
+                Conta
+              </div>
+            </a>
+          </li>
+          <li class="ic-app-header__menu-list-item ">
+            <a id="global_nav_dashboard_link" href="#" class="ic-app-header__menu-list-link">
+              <div class="menu-item-icon-container" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" class="ic-icon-svg ic-icon-svg--dashboard" version="1.1" x="0" y="0" viewBox="0 0 280 200" enable-background="new 0 0 280 200" xml:space="preserve">
+                  <path d="M273.09,180.75H197.47V164.47h62.62A122.16,122.16,0,1,0,17.85,142a124,124,0,0,0,2,22.51H90.18v16.29H6.89l-1.5-6.22A138.51,138.51,0,0,1,1.57,142C1.57,65.64,63.67,3.53,140,3.53S278.43,65.64,278.43,142a137.67,137.67,0,0,1-3.84,32.57ZM66.49,87.63,50.24,71.38,61.75,59.86,78,76.12Zm147,0L202,76.12l16.25-16.25,11.51,11.51ZM131.85,53.82v-23h16.29v23Zm15.63,142.3a31.71,31.71,0,0,1-28-16.81c-6.4-12.08-15.73-72.29-17.54-84.25a8.15,8.15,0,0,1,13.58-7.2c8.88,8.21,53.48,49.72,59.88,61.81a31.61,31.61,0,0,1-27.9,46.45ZM121.81,116.2c4.17,24.56,9.23,50.21,12,55.49A15.35,15.35,0,1,0,161,157.3C158.18,152,139.79,133.44,121.81,116.2Z"></path>
+                </svg>
+
+              </div>
+              <div class="menu-item__text">Painel de Controle</div>
+            </a>
+          </li>
+          <li class="menu-item ic-app-header__menu-list-item ic-app-header__menu-list-item--active">
+            <a id="global_nav_courses_link" href="#" class="ic-app-header__menu-list-link">
+              <div class="menu-item-icon-container" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" class="ic-icon-svg ic-icon-svg--courses" version="1.1" x="0" y="0" viewBox="0 0 280 259" enable-background="new 0 0 280 259" xml:space="preserve">
+                  <path d="M73.31,198c-11.93,0-22.22,8-24,18.73a26.67,26.67,0,0,0-.3,3.63v.3a22,22,0,0,0,5.44,14.65,22.47,22.47,0,0,0,17.22,8H200V228.19h-134V213.08H200V198Zm21-105.74h90.64V62H94.3ZM79.19,107.34V46.92H200v60.42Zm7.55,30.21V122.45H192.49v15.11ZM71.65,16.71A22.72,22.72,0,0,0,49,39.36V190.88a41.12,41.12,0,0,1,24.32-8h157V16.71ZM33.88,39.36A37.78,37.78,0,0,1,71.65,1.6H245.36V198H215.15v45.32h22.66V258.4H71.65a37.85,37.85,0,0,1-37.76-37.76Z"></path>
+                </svg>
+
+              </div>
+              <div class="menu-item__text">
+                Cursos
+              </div>
+            </a>
+          </li>
+          <li class="menu-item ic-app-header__menu-list-item ">
+            <a id="global_nav_groups_link" href="#" class="ic-app-header__menu-list-link">
+              <div class="menu-item-icon-container" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" class="ic-icon-svg ic-icon-svg--groups" viewBox="0 0 200 135">
+                  <path d="M134.5 129.4c0-1.1 0-19.8-6.2-31.1-4.5-8.5-16.4-12.4-35-19.2-1.7-.6-3.4-1.1-5.1-1.7v-8.5c5.6-5.1 8.5-12.4 8.5-20.3V29.4C96.6 13 83.6 0 67.2 0S37.9 13 37.9 29.4v19.2c0 7.3 3.4 14.7 8.5 20.3v8.5c-1.7.6-3.4 1.1-5.1 1.7-18.6 6.2-30.5 10.7-35 19.2C0 109.6 0 128.8 0 129.4c0 3.4 2.3 5.6 5.6 5.6h123.7c3.5 0 5.7-2.3 5.2-5.6zm-123.2-5.7c.6-5.6 1.7-14.7 3.4-19.8C17 98.8 30 94.3 43.5 89.8c2.8-1.1 5.6-2.3 9-3.4 2.3-.6 4-2.8 4-5.1V66.7c0-1.7-.6-3.4-1.7-4.5-4-3.4-6.2-8.5-6.2-13.6V29.4c0-10.2 7.9-18.1 18.1-18.1s18.1 7.9 18.1 18.1v19.2c0 5.1-2.3 10.2-6.2 13.6-1.1 1.1-1.7 2.8-1.7 4.5v14.7c0 2.3 1.7 4.5 4 5.1 2.8 1.1 6.2 2.3 9 3.4 13.6 5.1 26.6 9.6 28.8 14.1 2.8 5.1 4 13.6 4.5 19.8H11.3zM196 79.1c-2.8-6.2-11.3-9.6-22.6-13.6l-1.7-.6v-3.4c4.5-4 6.8-9.6 6.8-15.8V35c0-12.4-9.6-22-22-22s-22 10.2-22 22v10.7c0 6.2 2.3 11.9 6.8 15.8V65l-1.7.6c-7.3 2.8-13 4.5-16.9 7.3-1.7 1.1-2.3 2.8-2.3 5.1.6 1.7 1.7 3.4 3.4 4.5 7.9 4 12.4 7.3 14.1 10.7 2.3 4.5 4 10.2 5.1 18.1.6 2.3 2.8 4.5 5.6 4.5h45.8c3.4 0 5.6-2.8 5.6-5.1 0-3.9 0-24.3-4-31.6zm-42.9 25.4c-1.1-6.8-2.8-12.4-5.1-16.9-1.7-4-5.1-6.8-9.6-10.2 1.7-1.1 3.4-1.7 5.1-2.3l5.6-2.3c1.7-.6 3.4-2.8 3.4-5.1v-9.6c0-1.7-.6-3.4-2.3-4.5-2.8-1.7-4.5-5.1-4.5-8.5V34.5c0-6.2 4.5-10.7 10.7-10.7s10.7 5.1 10.7 10.7v10.7c0 3.4-1.7 6.2-4.5 8.5-1.1 1.1-2.3 2.8-2.3 4.5v10.2c0 2.3 1.1 4.5 3.4 5.1l5.6 2.3c6.8 2.3 15.3 5.6 16.4 7.9 1.7 2.8 2.8 12.4 2.8 20.9h-35.4z"></path>
+                </svg>
+
+              </div>
+              <div class="menu-item__text">
+                Grupos
+              </div>
+            </a>
+          </li>
+          <li class="menu-item ic-app-header__menu-list-item ">
+            <a id="global_nav_calendar_link" href="#" class="ic-app-header__menu-list-link" target="_blank">
+              <div class="menu-item-icon-container" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" class="ic-icon-svg ic-icon-svg--calendar" version="1.1" x="0" y="0" viewBox="0 0 280 280" enable-background="new 0 0 280 280" xml:space="preserve">
+                  <path d="M197.07,213.38h16.31V197.07H197.07Zm-16.31,16.31V180.76h48.92v48.92Zm-48.92-16.31h16.31V197.07H131.85Zm-16.31,16.31V180.76h48.92v48.92ZM66.62,213.38H82.93V197.07H66.62ZM50.32,229.68V180.76H99.24v48.92Zm146.75-81.53h16.31V131.85H197.07Zm-16.31,16.31V115.54h48.92v48.92Zm-48.92-16.31h16.31V131.85H131.85Zm-16.31,16.31V115.54h48.92v48.92ZM66.62,148.15H82.93V131.85H66.62ZM50.32,164.46V115.54H99.24v48.92ZM34,262.29H246V82.93H34ZM246,66.62V42.16A8.17,8.17,0,0,0,237.84,34H213.38v8.15a8.15,8.15,0,1,1-16.31,0V34H82.93v8.15a8.15,8.15,0,0,1-16.31,0V34H42.16A8.17,8.17,0,0,0,34,42.16V66.62Zm-8.15-48.92a24.49,24.49,0,0,1,24.46,24.46V278.6H17.71V42.16A24.49,24.49,0,0,1,42.16,17.71H66.62V9.55a8.15,8.15,0,0,1,16.31,0v8.15H197.07V9.55a8.15,8.15,0,1,1,16.31,0v8.15Z"></path>
+                </svg>
+
+              </div>
+              <div class="menu-item__text">
+                Calendário
+              </div>
+            </a>
+          </li>
+          <li class="menu-item ic-app-header__menu-list-item ">
+            <a id="global_nav_conversations_link" href="#" class="ic-app-header__menu-list-link">
+              <div class="menu-item-icon-container" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" class="ic-icon-svg ic-icon-svg--inbox" version="1.1" x="0" y="0" viewBox="0 0 280 280" enable-background="new 0 0 280 280" xml:space="preserve">
+                  <path d="M91.72,120.75h96.56V104.65H91.72Zm0,48.28h80.47V152.94H91.72Zm0-96.56h80.47V56.37H91.72Zm160.94,34.88H228.52V10.78h-177v96.56H27.34A24.17,24.17,0,0,0,3.2,131.48V244.14a24.17,24.17,0,0,0,24.14,24.14H252.66a24.17,24.17,0,0,0,24.14-24.14V131.48A24.17,24.17,0,0,0,252.66,107.34Zm0,16.09a8.06,8.06,0,0,1,8,8v51.77l-32.19,19.31V123.44ZM67.58,203.91v-177H212.42v177ZM27.34,123.44H51.48v79.13L19.29,183.26V131.48A8.06,8.06,0,0,1,27.34,123.44ZM252.66,252.19H27.34a8.06,8.06,0,0,1-8-8V202l30,18H230.75l30-18v42.12A8.06,8.06,0,0,1,252.66,252.19Z"></path>
+                </svg>
+
+                <span class="menu-item__badge" style=""></span>
+              </div>
+              <div class="menu-item__text">
+                Caixa de entrada
+              </div>
+            </a>
+          </li>
+
+
+        </ul>
+      </div>
+      <div class="ic-app-header__secondary-navigation">
+        <ul class="ic-app-header__menu-list">
+          <li class="menu-item ic-app-header__menu-list-item">
+            <button id="primaryNavToggle" class="ic-app-header__menu-list-link ic-app-header__menu-list-link--nav-toggle" aria-label="
+                Minimizar navegação global" title="
+                Minimizar navegação global">
+              <svg xmlns="http://www.w3.org/2000/svg" class="ic-icon-svg ic-icon-svg--navtoggle" version="1.1" x="0" y="0" width="40" height="32" viewBox="0 0 40 32" xml:space="preserve">
+                <path d="M39.5,30.28V2.48H37.18v27.8Zm-4.93-13.9L22.17,4,20.53,5.61l9.61,9.61H.5v2.31H30.14l-9.61,9.61,1.64,1.64Z"></path>
+              </svg>
+
+            </button>
+          </li>
+        </ul>
+      </div>
+      <div id="global_nav_tray_container"><noscript data-reactid=".0"></noscript></div>
+    </header>
+
+
+    <div id="instructure_ajax_error_box">
+      <div style="text-align: right; background-color: #fff;"><a href="#" class="close_instructure_ajax_error_box_link">Fechar</a></div>
+      <iframe id="instructure_ajax_error_result" src="arquivos/a.html" style="border: 0;" title="Erro"></iframe>
+    </div>
+
+
+
+    <div id="wrapper" class="ic-Layout-wrapper">
+      <div class="ic-app-nav-toggle-and-crumbs no-print">
+        <button type="button" id="courseMenuToggle" class="Button Button--link Button--small ic-app-course-nav-toggle" aria-live="polite" aria-label="Ocultar Menu de Navegação dos cursos" title="Ocultar Menu de Navegação dos cursos">
+          <!-- <i class="fas fa-bars"></i> -->
+        </button>
+        <div class="ic-app-crumbs">
+          <nav id="breadcrumbs" role="navigation" aria-label="breadcrumbs">
+            <ul>
+              <li class="home"><a href="https://cursos.univesp.br/"><span class="ellipsible"> <i class="icon-home" title="Meu painel">
+                      <span class="screenreader-only">Meu painel</span>
+                    </i>
+                  </span></a></li>
+              <li><a href="index.html"><span class="ellipsible">PROGRAMAÇÃO DE COMPUTADORES </span></a></li>
+              <li><a href="#"><span class="ellipsible">Páginas</span></a></li>
+              <li><span class="ellipsible">Semana</span></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div id="main" class="ic-Layout-columns">
+        <div id="left-side" class="ic-app-course-menu list-view" style="display: block">
+          <nav role="navigation" aria-label="Menu de Navegação dos cursos">
+            <ul id="section-tabs">
+              <li class="section"><a href="#" title="Página inicial" class="home" tabindex="0">Página inicial</a></li>
+              <li class="section"><a href="#" title="Módulos" class="modules" tabindex="0">Módulos</a></li>
+              <li class="section"><a href="#" title="Atividades" class="assignments" aria-label="Atividades do curso" tabindex="0">Atividades</a></li>
+              <li class="section"><a href="#" title="Notas" class="grades" aria-label="Notas do curso" tabindex="0">Notas</a></li>
+              <li class="section"><a href="#" title="Orientações gerais para avaliação" class="context_external_tool_2301" tabindex="0">Orientações gerais para avaliação</a></li>
+              <li class="section"><a href="#" title="Fóruns" class="discussions" aria-label="Fóruns do curso" tabindex="0">Fóruns</a></li>
+              <li class="section"><a href="#" title="Gabaritos" class="context_external_tool_2300" tabindex="0">Gabaritos</a></li>
+              <li class="section"><a href="#" title="Normas Acadêmicas" class="context_external_tool_130" tabindex="0">Normas Acadêmicas</a></li>
+              <li class="section"><a href="#" title="Projeto Pedagógico" class="context_external_tool_2302" tabindex="0">Projeto Pedagógico</a></li>
+              <li class="section"><a href="#" title="Manual do Aluno" class="context_external_tool_3298" tabindex="0">Manual do Aluno</a></li>
+              <li class="section"><a href="#" title="Lives Engenharia" class="context_external_tool_3511" tabindex="0">Lives Engenharia</a></li>
+              <li class="section"><a href="#" title="Calendário Acadêmico" class="context_external_tool_3702" tabindex="0">Calendário Acadêmico</a></li>
+              <li class="section"><a href="#" title="Tutoriais" class="context_external_tool_3747" tabindex="0">Tutoriais</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div id="not_right_side" class="ic-app-main-content">
+          <div id="content-wrapper" class="ic-Layout-contentWrapper">
+
+
+            <div id="content" class="ic-Layout-contentMain" role="main">
+
+
+
+
+              <div id="wiki_page_show">
+                <div class="header-bar-outer-container">
+                  <div class="header-bar-container sticky-toolbar" data-sticky="">
+                    <div class="header-bar flex-container">
+                      <div class="header-bar-left header-left-flex">
+
+
+
+                      </div>
+                      <div class="header-bar-right header-right-flex">
+
+
+
+
+
+
+
+
+                      </div>
+                    </div>
+                    <div class="page-changed-alert" role="alert" aria-atomic="true" aria-live="polite"></div>
+                  </div>
+                </div>
+
+
+                <div class="show-content user_content clearfix enhanced">
+                  <h1 class="page-title">Semana 1</h1>
+
+
+                  <div class="graduation">
+
+                    <div class="container header">
+                      <img class="img-banner" src="arquivos/banner_Programacao_Computadores.jpg" alt="" style="max-width: 1138px;">
+                      <div class="container">
+                        <div>
+                          <span class="course-name">Engenharia</span>
+                          <h1 class="discipline-name">Programação de Computadores</h1>
+                        </div>
+                        <a class="btn btn-syllabus external" href="#" target="_blank" rel="noreferrer"><span><span>Plano de Ensino</span><span class="screenreader-only">&nbsp;(Links
+                              para um site externo)</span></span><span class="ui-icon ui-icon-extlink ui-icon-inline" title="Links para um site externo"><span class="screenreader-only">Links para um site externo</span></span></a>
+                      </div>
+                    </div>
+                    <div class="container intro">
+                      <div class="title active">
+                        <span class="semana-1">1</span>
+                        <h1 class="semana-1">Primeiros Passos</h1>
+                      </div>
+                    </div>
+
+                    <div class="container">
+                      <div class="content-list">
+
+                        <div class="content-item guide box">
+                          <div class="content">
+                            <h2>Antes de Começar</h2>
+                            <div class="description">
+                              <p>Olá, alunos e alunas da disciplina Programação de Computadores!</p>
+                              <p>Este simulador foi crido por um grupo de Projeto Integrador e implantado com o objetivo de solucionar os problemas
+                                e dificuldades que os alunos tinham em instalar todos os programas necessários
+                                 para estudar linguagem de programação.</p>
+                              <p>Assim o aluno vai poder fazer as atividades propostas pela Universidade Virtual
+                                 do Estado de São Paulo (Univesp) sem ter que fazer a instalação de softwares para este fim,
+                                  fazendo tudo a partir do Ambiente Virtual de Atividade (AVA).</p>
+                              <p>Bom estudo!</p>
+                            </div>
+                          </div>
+                        </div>
+
+
+                        <div class="content-item guide">
+                          <div class="content">
+                            <h2>Orientação de Estudo</h2>
+                            <div class="description">
+                              <p>Como orientação de estudo dessa Semana vou indicar o seguinte roteiro:</p>
+                              <ol>
+                                <li>Assista a primeira videoaula;<br>&nbsp;</li>
+                                <li>Utilize o Simulador para treinar e fazer as atividades;<br>&nbsp;</li>
+                                <li>Implemente os programas mostrados em aula, vendo que problemas
+                                  ocorrem, e discutindo com colegas como resolvê-los no Fórum de Dúvidas.
+                                  Aprenda a usar suas ferramentas bem;<br>&nbsp;</li>
+                                <li>Faça as atividades de apoio. Elas contém exercícios que irão iniciar você no uso da interface e na compreensão da linguagem.<br>&nbsp;</li>
+                              </ol>
+                            </div>
+                          </div>
+                        </div>
+
+
+                        <div class="content-item video primary">
+                          <div class="icon"><img src="arquivos/video.svg" style="max-width: 1138px;"></div>
+                          <div class="content">
+                            <h5>Videoaula 1</h5>
+                            <h2> Apresentação da Disciplina </h2>
+                            <div class="synopsis">
+                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Fringilla phasellus faucibus scelerisque eleifend.
+                                Cum sociis natoque penatibus et magnis. Malesuada fames ac turpis egestas sed tempus urna et.
+                                Malesuada fames ac turpis egestas maecenas pharetra convallis posuere morbi.</p>
+                            </div>
+                          </div>
+                          <div class="arrow"><img src="arquivos/arrow.png" style="max-width: 1138px;"></div>
+                          <a class="overlay" href="#" target="_blank">Link</a>
+                        </div>
+
+
+                        <div class="content-item video primary">
+                          <div class="icon"><img src="arquivos/video.svg" style="max-width: 1138px;"></div>
+                          <div class="content">
+                            <h5>Videoaula 2</h5>
+                            <h2>Problemas e Algoritmos</h2>
+                            <div class="synopsis">
+                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Fringilla phasellus faucibus scelerisque eleifend.
+                                Cum sociis natoque penatibus et magnis. Malesuada fames ac turpis egestas sed tempus urna et.
+                                Malesuada fames ac turpis egestas maecenas pharetra convallis posuere morbi.</p>
+                            </div>
+                          </div>
+                          <div class="arrow"><img src="arquivos/arrow.png" style="max-width: 1138px;"></div>
+                          <a class="overlay" href="#" target="_blank">Link</a>
+                        </div>
+
+
+                        <div class="content-item video primary">
+                          <div class="icon"><img src="arquivos/video.svg" style="max-width: 1138px;"></div>
+                          <div class="content">
+                            <h5>Videoaula 3</h5>
+                            <h2>Computadores e Linguagens de Programação</h2>
+                            <div class="synopsis">
+                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Fringilla phasellus faucibus scelerisque eleifend.
+                                Cum sociis natoque penatibus et magnis. Malesuada fames ac turpis egestas sed tempus urna et.
+                                Malesuada fames ac turpis egestas maecenas pharetra convallis posuere morbi.</p>
+                            </div>
+                          </div>
+                          <div class="arrow"><img src="arquivos/arrow.png" style="max-width: 1138px;"></div>
+                          <a class="overlay" href="#" target="_blank">Link</a>
+                        </div>
+
+
+                        <div class="content-item video primary">
+                          <div class="icon"><img src="arquivos/video.svg" style="max-width: 1138px;"></div>
+                          <div class="content">
+                            <h5>Videoaula 4</h5>
+                            <h2>Linguagens de Programação e um primeiro programa</h2>
+                            <div class="synopsis">
+                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Fringilla phasellus faucibus scelerisque eleifend.
+                                Cum sociis natoque penatibus et magnis. Malesuada fames ac turpis egestas sed tempus urna et.
+                                Malesuada fames ac turpis egestas maecenas pharetra convallis posuere morbi. <em>von Neumann</em>.</p>
+                            </div>
+                          </div>
+                          <div class="arrow"><img src="arquivos/arrow.png" style="max-width: 1138px;"></div>
+                          <a class="overlay" href="#" target="_blank">Link</a>
+                        </div>
+
+
+                        <div class="content-item texto primary">
+                          <div class="icon"><img src="arquivos/texto2.svg" style="max-width: 1138px;"></div>
+                          <div class="content">
+                            <h5>Material-base</h5>
+                            <h2>Compile Java</h2>
+                            <p></p>
+                          </div>
+                          <div class="arrow"><img src="arquivos/arrow.png" style="max-width: 1138px;"></div>
+                          <a class="overlay external" href="#" target="_blank" rel="noreferrer"><span><span>Link</span><span class="screenreader-only">&nbsp;(Links para um site externo)</span></span><span class="ui-icon ui-icon-extlink ui-icon-inline"
+                              title="Links para um site externo"><span class="screenreader-only">Links para um site externo</span></span></a>
+                        </div>
+
+
+                        <div class="content-item video primary">
+                          <div class="icon"><img src="arquivos/video.svg" style="max-width: 1138px;"></div>
+                          <div class="content">
+                            <h5>Vídeo-base</h5>
+                            <h2>Primeiro Programa em Java</h2>
+
+                          </div>
+                          <div class="arrow"><img src="arquivos/arrow.png" style="max-width: 1138px;"></div>
+                          <a class="overlay" href="#" target="_blank">Link</a>
+                        </div>
+
+
+                        <div class="content-item video primary">
+                          <div class="icon"><img src="arquivos/video.svg" style="max-width: 1138px;"></div>
+                          <div class="content">
+                            <h5>Vídeo-base</h5>
+                            <h2>Programação Java</h2>
+
+                          </div>
+                          <div class="arrow"><img src="arquivos/arrow.png" style="max-width: 1138px;"></div>
+                          <a class="overlay" href="#" target="_blank">Link</a>
+                        </div>
+
+
+                        <div class="content-item video primary">
+                          <div class="icon"><img src="arquivos/video.svg" style="max-width: 1138px;"></div>
+                          <div class="content">
+                            <h5>Vídeo-base</h5>
+                            <h2>Curso de Java</h2>
+
+                          </div>
+                          <div class="arrow"><img src="arquivos/arrow.png" style="max-width: 1138px;"></div>
+                          <a class="overlay" href="#" target="_blank">Link</a>
+                        </div>
+
+
+                        <div class="content-item video primary">
+                          <div class="icon"><img src="arquivos/video.svg" style="max-width: 1138px;"></div>
+                          <div class="content">
+                            <h5>Vídeo-base</h5>
+                            <h2>Criando um Projeto Java </h2>
+
+                          </div>
+                          <div class="arrow"><img src="arquivos/arrow.png" style="max-width: 1138px;"></div>
+                          <a class="overlay" href="#" target="_blank">Link</a>
+                        </div>
+
+
+                        <div class="content-item tasks secondary">
+                          <div class="icon"><img src="arquivos/atividade4.svg" style="max-width: 1138px;"></div>
+                          <div class="content">
+                            <h5>Simulador</h5>
+                            <p>Programe online de forma prática e rápida.</p>
+                          </div>
+                          <div class="arrow"><img src="arquivos/arrow.png" style="max-width: 1138px;"></div>
+                          <a class="overlay" href="https://repl.it/languages/c" target="_blank">Link</a>
+                        </div>
+
+                        <div class="content-item tasks secondary">
+                          <div class="icon"><img src="arquivos/atividade4.svg" style="max-width: 1138px;"></div>
+                          <div class="content">
+                            <h5>Exercício de Apoio</h5>
+                            <p>Apenas para praticar. Não vale nota.</p>
+                          </div>
+                          <div class="arrow"><img src="arquivos/arrow.png" style="max-width: 1138px;"></div>
+                          <a class="overlay" href="#" target="_blank">Link</a>
+                        </div>
+
+
+                        <div class="content-item forum primary">
+                          <div class="icon"><img src="arquivos/forum.svg" style="max-width: 1138px;"></div>
+                          <div class="content">
+                            <h5>Fórum de dúvidas</h5>
+                            <h2>Dúvidas e comentários da Semana 1</h2>
+
+                          </div>
+                          <div class="arrow"><img src="arquivos/arrow.png" style="max-width: 1138px;"></div>
+                          <a class="overlay" href="#" target="_blank">Link</a>
+                        </div>
+
+
+                        <div class="content-item guide box">
+                          <div class="content">
+                            <h2>O que vem por aí</h2>
+                            <div class="description">
+                              <p>Na próxima semana, começaremos a construir um programa que faça mais do que simplesmente escrever uma mensagem na tela.</p>
+                            </div>
+                          </div>
+                        </div>
+
+
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+                <div style="">
+                  <div class="module-sequence-padding"></div>
+                  <div class="module-sequence-footer" role="navigation" aria-label="Navegação do módulo">
+                    <div class="module-sequence-footer-content">
+
+                      <a href="index.html" role="button" class="Button module-sequence-footer-button--previous" data-tooltip="right" data-html-tooltip-title="&lt;strong style='float:left'&gt;Módulo anterior:&lt;/strong&gt; &lt;br&gt; Semana 2"
+                        aria-describedby="msf0-previous-desc">
+                        <i class="fas fa-caret-left"></i> Voltar
+                        <span id="msf0-previous-desc" class="hidden" hidden="">Módulo anterior: Semana 2</span>
+                      </a>
+
+
+
+                      <a href="#" role="button" class="Button module-sequence-footer-button--next" data-tooltip="left" data-html-tooltip-title="&lt;i class='icon-document'&gt;&lt;/i&gt; Antes de começar - Semana 1"
+                        aria-describedby="msf0-next-desc">
+                        Avançar <i class="fas fa-caret-right"></i>
+                        <span id="msf0-next-desc" class="hidden" hidden="">Próximo: Antes de começar - Semana 1</span>
+                      </a>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <div id="right-side-wrapper" class="ic-app-main-content__secondary">
+            <aside id="right-side" role="complementary">
+
+            </aside>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div style="display:none;">
+      <!-- Everything inside of this should always stay hidden -->
+      <div id="page_view_id">84aa8413-ef7a-4a57-a2a8-b1c5092d8db0</div>
+    </div>
+
+    <div id="cant_record_dialog" style="display: none;">
+      <div>
+        Para criar gravações de vídeo ou áudio, seu computador precisa ter
+        uma webcam ativada. Se você não possuir uma webcam em seu computador,
+        ainda será possível gravar mensagens somente de áudio, instalando
+        primeiramente o plugin Google Video Chat.
+      </div>
+      <div style="text-align: center; font-size: 1.5em; margin: 10px;">
+        <a href="http://www.google.com/chat/video" target="_blank" class="btn">Instalar o plugin de vídeo</a>
+      </div>
+      <div class="links" style="text-align: right; font-size: 0.8em; display: none;">
+        <a href="#" class="cant_record_link">Não tem uma webcam?</a>
+      </div>
+    </div>
+    <div id="aria_alerts" class="hide-text affix" role="alert" aria-live="assertive"></div>
+    <div id="StudentTray__Container"></div>
+    <script>
+      INST = {
+        "environment": "production",
+        "disableScribdPreviews": true,
+        "disableCrocodocPreviews": true,
+        "logPageViews": true,
+        "maxVisibleEditorButtons": 3,
+        "editorButtons": [{
+          "name": "Insert a math equation - MathType",
+          "id": 3065,
+          "url": "https:\/\/www.wiris.net\/instructure.com\/canvas\/editor\/config",
+          "icon_url": "https:\/\/www.wiris.net\/instructure.com\/canvas\/editor\/icon.gif",
+          "canvas_icon_class": null,
+          "width": 570,
+          "height": 450
+        }]
+      };
+      // ENV = {
+      //   "ASSET_HOST": null,
+      //   "active_brand_config": "3a432f607856fdbf739ecc486a327928",
+      //   "active_brand_config_json_url": "\/dist\/brandable_css\/3a432f607856fdbf739ecc486a327928\/variables-b7abd891db84754772e26cbf3eab6cd5.json",
+      //   "url_to_what_gets_loaded_inside_the_tinymce_editor_css": "\/dist\/brandable_css\/3a432f607856fdbf739ecc486a327928\/new_styles_normal_contrast\/bundles\/what_gets_loaded_inside_the_tinymce_editor-91870d9223.css",
+      //   "current_user_id": "6301",
+      //   "current_user": {
+      //     "id": "6301",
+      //     "display_name": "Isaias Izidorio dos Santos",
+      //     "avatar_image_url": "https:\/\/cursos.univesp.br\/images\/thumbnails\/252888\/PTRgM2PXJjovuDl1BWxdBLurIPRbBaFjf2dnGe6F",
+      //     "html_url": "https:\/\/cursos.univesp.br\/about\/6301"
+      //   },
+      //   "current_user_roles": ["user", "student"],
+      //   "current_user_disabled_inbox": false,
+      //   "files_domain": "cursos.univesp.br",
+      //   "DOMAIN_ROOT_ACCOUNT_ID": 10000000000001,
+      //   "k12": false,
+      //   "help_link_name": "Ajuda",
+      //   "help_link_icon": "help",
+      //   "use_high_contrast": false,
+      //   "SETTINGS": {
+      //     "open_registration": false,
+      //     "eportfolios_enabled": true,
+      //     "collapse_global_nav": false,
+      //     "show_feedback_link": false,
+      //     "enable_profiles": true
+      //   },
+      //   "page_view_update_url": "\/page_views\/84aa8413-ef7a-4a57-a2a8-b1c5092d8db0?page_view_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpIjoiODRhYTg0MTMtZWY3YS00YTU3LWEyYTgtYjFjNTA5MmQ4ZGIwIiwidSI6MTAwMDAwMDAwMDYzMDEsImMiOiIyMDIwLTA1LTIyVDE4OjI4OjE1LjM0WiJ9.J42szI9D3-ITcMboPO-hQYfkbLezVH5n4mBQGP30BKQ",
+      //   "context_asset_string": "course_1672",
+      //   "ping_url": "https:\/\/cursos.univesp.br\/api\/v1\/courses\/1672\/ping",
+      //   "TIMEZONE": "America\/Sao_Paulo",
+      //   "CONTEXT_TIMEZONE": "America\/Sao_Paulo",
+      //   "LOCALE": "pt-BR",
+      //   "BIGEASY_LOCALE": "pt_BR",
+      //   "FULLCALENDAR_LOCALE": "pt-br",
+      //   "MOMENT_LOCALE": "pt-br",
+      //   "WIKI_RIGHTS": {
+      //     "read": true
+      //   },
+      //   "PAGE_RIGHTS": {
+      //     "read": true
+      //   },
+      //   "DEFAULT_EDITING_ROLES": "teachers",
+      //   "WIKI_PAGES_PATH": "\/courses\/1672\/pages",
+      //   "WIKI_PAGE": {
+      //     "title": "Semana 1",
+      //     "created_at": "2018-04-20T20:56:28Z",
+      //     "url": "semana-1",
+      //     "editing_roles": "teachers",
+      //     "page_id": "68069",
+      //     "last_edited_by": {
+      //       "id": "2",
+      //       "display_name": "Administrador de Conte\u00fado",
+      //       "avatar_image_url": "https:\/\/cursos.univesp.br\/images\/thumbnails\/22214\/8JAP6cnBE4GrlIGxgTHcfsW0e6Nsw3iBnMSGvUBn",
+      //       "html_url": "https:\/\/cursos.univesp.br\/courses\/1672\/users\/2"
+      //     },
+      //     "published": true,
+      //     "hide_from_students": false,
+      //     "front_page": false,
+      //     "html_url": "https:\/\/cursos.univesp.br\/courses\/1672\/pages\/semana-1",
+      //     "updated_at": "2018-05-17T14:15:45Z",
+      //     "locked_for_user": false,
+      //     "body": "\r\n\t\t\t\t\u003cdiv class=\"graduation\"\u003e\r\n\t\t\t\t\t\r\n\t\t\u003cdiv class=\"container header\"\u003e\r\n\t\t\t\u003cimg class=\"img-banner\" src=\"https:\/\/assets.univesp.br\/canvas\/img\/banners\/banner_Programacao_Computadores.jpg\" alt=\"\"\u003e\r\n\t\t\t\u003cdiv class=\"container\"\u003e\r\n\t\t\t\t\u003cdiv\u003e\r\n\t\t\t\t\t\u003cspan class=\"course-name\"\u003eEngenharia\u003c\/span\u003e\r\n\t\t\t\t\t\u003ch1 class=\"discipline-name\"\u003ePrograma\u00e7\u00e3o de Computadores\u003c\/h1\u003e\r\n\t\t\t\t\u003c\/div\u003e\r\n\t\t\t\t\u003ca class=\"btn btn-syllabus\" href=\"https:\/\/drive.google.com\/file\/d\/1Naos99hL2K_XK_kXKleKiS17lLWPYKht\/view?usp=sharing\"\u003ePlano de Ensino\u003c\/a\u003e\r\n\t\t\t\u003c\/div\u003e\r\n\t\t\u003c\/div\u003e\r\n\t\t\u003cdiv class=\"container intro\"\u003e\r\n\t\t\t\u003cdiv class=\"title active\"\u003e\r\n\t\t\t\t\u003cspan class=\"semana-1\"\u003e1\u003c\/span\u003e\r\n\t\t\t\t\u003ch1 class=\"semana-1\"\u003ePrimeiros Passos\u003c\/h1\u003e\r\n\t\t\t\u003c\/div\u003e\r\n\t\t\u003c\/div\u003e\r\n\t\t\r\n\t\t\t\t\t\u003cdiv class=\"container\"\u003e\r\n\t\t\t\t\t\u003cdiv class=\"content-list\"\u003e\r\n\t\t\t\t\t\r\n\t\t\u003cdiv class=\"content-item guide box\"\u003e\r\n\t\t\u003cdiv class=\"content\"\u003e\r\n\t\t\u003ch2\u003eAntes de Come\u00e7ar\u003c\/h2\u003e\r\n\t\t \u003cdiv class=\"description\"\u003e\r\n\u003cp\u003eOl\u00e1, alunos e alunas da disciplina Programa\u00e7\u00e3o de Computadores!\u003c\/p\u003e\r\n\u003cp\u003eAntes de mais nada, quero que entenda que essa disciplina foi pensada para quem n\u00e3o sabe programar. De fato, para quem n\u00e3o tem a menor no\u00e7\u00e3o do que significa programar um computador. Ent\u00e3o n\u00e3o se preocupe.\u003c\/p\u003e\r\n\u003cp\u003eCome\u00e7aremos aos poucos, primeiro apresentando o que voc\u00ea ir\u00e1 precisar para fazer o curso, e ent\u00e3o entrando nos conceitos b\u00e1sicos do que significa programar, para ao final conseguirmos fazer um primeiro, bem simples, programa.\u003c\/p\u003e\r\n\u003cp\u003eEmbora possam parecer irrelevantes, estes primeiros passos t\u00eam que ser bem compreendidos pois, como ver\u00e1, aprender uma linguagem de programa\u00e7\u00e3o torna-se incrivelmente mais f\u00e1cil quando j\u00e1 se sabe o que esperar dela. E \u00e9 justamente isso que voc\u00ea ver\u00e1 nesta semana.\u003c\/p\u003e\r\n\u003c\/div\u003e\r\n\t\t\u003c\/div\u003e\r\n\t\t\u003c\/div\u003e\r\n\t\t\r\n\t\t\r\n\t\t\u003cdiv class=\"content-item guide\"\u003e\r\n\t\t\u003cdiv class=\"content\"\u003e\r\n\t\t\u003ch2\u003eOrienta\u00e7\u00e3o de Estudo\u003c\/h2\u003e\r\n\t\t \u003cdiv class=\"description\"\u003e\r\n\u003cp\u003eComo orienta\u00e7\u00e3o de estudo dessa Semana vou indicar o seguinte roteiro:\u003c\/p\u003e\r\n\u003col\u003e\r\n\u003cli\u003eAssista a primeira videoaula;\u003cbr\u003e\u00a0\u003c\/li\u003e\r\n\u003cli\u003eInstale o JDK em sua m\u00e1quina. Baixe o seu em:\u003cbr\u003e\r\n\u003ca href=\"http:\/\/www.oracle.com\/technetwork\/pt\/java\/javase\/downloads\/index.html\" target=\"_blank\"\u003ehttp:\/\/www.oracle.com\/technetwork\/pt\/java\/javase\/downloads\/index.html\u003c\/a\u003e\u003cbr\u003e\u00a0\u003c\/li\u003e\r\n\u003cli\u003eDiscuta com seus colegas sobre a instala\u00e7\u00e3o desses softwares, se necess\u00e1rio. Teste-os, brinque um pouco;\u003cbr\u003e\u00a0\u003c\/li\u003e\r\n\u003cli\u003eImplemente os programas mostrados em aula, vendo que problemas ocorrem, e discutindo com colegas como resolv\u00ea-los no F\u00f3rum de D\u00favidas. Aprenda a usar suas ferramentas bem;\u003cbr\u003e\u00a0\u003c\/li\u003e\r\n\u003cli\u003eFa\u00e7a as atividades de apoio. Elas cont\u00e9m exerc\u00edcios que ir\u00e3o iniciar voc\u00ea no uso da interface e na compreens\u00e3o da linguagem.\u003cbr\u003e\u00a0\u003c\/li\u003e\r\n\u003c\/ol\u003e\r\n\u003c\/div\u003e\r\n\t\t\u003c\/div\u003e\r\n\t\t\u003c\/div\u003e\r\n\t\t\r\n\t\t\r\n\t\t\u003cdiv class=\"content-item video primary\"\u003e\r\n\t\t\u003cdiv class=\"icon\"\u003e\u003cimg src=\"https:\/\/assets.univesp.br\/canvas\/img\/video.svg\"\u003e\u003c\/div\u003e\r\n\t\t\u003cdiv class=\"content\"\u003e\r\n\t\t\u003ch5\u003eVideoaula 1\u003c\/h5\u003e\r\n\t\t\u003ch2\u003e Apresenta\u00e7\u00e3o da Disciplina \u003c\/h2\u003e\r\n\t\t \u003cdiv class=\"synopsis\"\u003e\r\n\u003cp\u003eNesta videoaula apresentaremos a disciplina e seus objetivos. Ela foi pensada para alunos e alunas que n\u00e3o sabem programar: estudaremos a l\u00f3gica da programa\u00e7\u00e3o aplicada utilizando a linguagem Java al\u00e9m de diferentes op\u00e7\u00f5es para a escrita e execu\u00e7\u00e3o de programas com exemplos para Windows e Linux. Vamos tamb\u00e9m explicar sobre o m\u00e9todo de ensino adotado, o incremental (iniciando conceitos, operadores e problemas mais b\u00e1sicos caminhando para problemas mais complexos, baseada na indu\u00e7\u00e3o ao erro).\u003c\/p\u003e\r\n\u003c\/div\u003e\r\n\t\t\u003c\/div\u003e\r\n\t\t\u003cdiv class=\"arrow\"\u003e\u003cimg src=\"https:\/\/assets.univesp.br\/canvas\/img\/arrow.png\"\u003e\u003c\/div\u003e\r\n\t\t\u003ca class=\"overlay\" href=\"https:\/\/cursos.univesp.br\/courses\/1672\/modules\/items\/111100\" target=\"_blank\"\u003eLink\u003c\/a\u003e\r\n\t\t\u003c\/div\u003e\r\n\t\t\r\n\t\t\r\n\t\t\u003cdiv class=\"content-item video primary\"\u003e\r\n\t\t\u003cdiv class=\"icon\"\u003e\u003cimg src=\"https:\/\/assets.univesp.br\/canvas\/img\/video.svg\"\u003e\u003c\/div\u003e\r\n\t\t\u003cdiv class=\"content\"\u003e\r\n\t\t\u003ch5\u003eVideoaula 2\u003c\/h5\u003e\r\n\t\t\u003ch2\u003eProblemas e Algoritmos\u003c\/h2\u003e\r\n\t\t \u003cdiv class=\"synopsis\"\u003e\r\n\u003cp\u003eNesta aula, apresentaremos dois enfoques principais: o entendimento e descri\u00e7\u00e3o de problemas rotineiros e como um algoritmo pode ser elaborado para resolver esses problemas. Voc\u00ea, aluno(a), ser\u00e1 convidado a pensar em algumas tarefas ou problemas rotineiros, como por exemplo, como se vestir pela manh\u00e3 ou fazer um bolo e descrever os passos necess\u00e1rios \u00e0 realiza\u00e7\u00e3o dessas tarefas.\u003c\/p\u003e\r\n\u003c\/div\u003e\r\n\t\t\u003c\/div\u003e\r\n\t\t\u003cdiv class=\"arrow\"\u003e\u003cimg src=\"https:\/\/assets.univesp.br\/canvas\/img\/arrow.png\"\u003e\u003c\/div\u003e\r\n\t\t\u003ca class=\"overlay\" href=\"https:\/\/cursos.univesp.br\/courses\/1672\/modules\/items\/111102\" target=\"_blank\"\u003eLink\u003c\/a\u003e\r\n\t\t\u003c\/div\u003e\r\n\t\t\r\n\t\t\r\n\t\t\u003cdiv class=\"content-item video primary\"\u003e\r\n\t\t\u003cdiv class=\"icon\"\u003e\u003cimg src=\"https:\/\/assets.univesp.br\/canvas\/img\/video.svg\"\u003e\u003c\/div\u003e\r\n\t\t\u003cdiv class=\"content\"\u003e\r\n\t\t\u003ch5\u003eVideoaula 3\u003c\/h5\u003e\r\n\t\t\u003ch2\u003eComputadores e Linguagens de Programa\u00e7\u00e3o\u003c\/h2\u003e\r\n\t\t \u003cdiv class=\"synopsis\"\u003e\r\n\u003cp\u003eNesta aula, apresentaremos a motiva\u00e7\u00e3o da constru\u00e7\u00e3o de computadores e ser\u00e3o descritos alguns conceitos gerais necess\u00e1rios para que os computadores funcionem e possam ser usados para executarem algoritmos. Seguindo esse racioc\u00ednio, inicialmente \u00e9 apresentada a unidade central de processamento (UCP ou CPU) que \u00e9 alimentada por um m\u00f3dulo de entrada e utiliza a mem\u00f3ria principal para armazenar e manipular a entrada e, por fim, possui um m\u00f3dulo de sa\u00edda para apresentar a solu\u00e7\u00e3o ao usu\u00e1rio. Tamb\u00e9m s\u00e3o apresentados quatro conceitos: Sistema Operacional, Programa, Linguagem de Programa\u00e7\u00e3o e Compilador.\u003c\/p\u003e\r\n\u003c\/div\u003e\r\n\t\t\u003c\/div\u003e\r\n\t\t\u003cdiv class=\"arrow\"\u003e\u003cimg src=\"https:\/\/assets.univesp.br\/canvas\/img\/arrow.png\"\u003e\u003c\/div\u003e\r\n\t\t\u003ca class=\"overlay\" href=\"https:\/\/cursos.univesp.br\/courses\/1672\/modules\/items\/111104\" target=\"_blank\"\u003eLink\u003c\/a\u003e\r\n\t\t\u003c\/div\u003e\r\n\t\t\r\n\t\t\r\n\t\t\u003cdiv class=\"content-item video primary\"\u003e\r\n\t\t\u003cdiv class=\"icon\"\u003e\u003cimg src=\"https:\/\/assets.univesp.br\/canvas\/img\/video.svg\"\u003e\u003c\/div\u003e\r\n\t\t\u003cdiv class=\"content\"\u003e\r\n\t\t\u003ch5\u003eVideoaula 4\u003c\/h5\u003e\r\n\t\t\u003ch2\u003eLinguagens de Programa\u00e7\u00e3o e um primeiro programa\u003c\/h2\u003e\r\n\t\t \u003cdiv class=\"synopsis\"\u003e\r\n\u003cp\u003eNesta aula aprenderemos o que \u00e9 necess\u00e1rio para uma linguagem de programa\u00e7\u00e3o com base no que foi apresentado nas aulas anteriores, em particular o algoritmo para se fazer um bolo e a m\u00e1quina de \u003cem\u003evon Neumann\u003c\/em\u003e.\u003c\/p\u003e\r\n\u003c\/div\u003e\r\n\t\t\u003c\/div\u003e\r\n\t\t\u003cdiv class=\"arrow\"\u003e\u003cimg src=\"https:\/\/assets.univesp.br\/canvas\/img\/arrow.png\"\u003e\u003c\/div\u003e\r\n\t\t\u003ca class=\"overlay\" href=\"https:\/\/cursos.univesp.br\/courses\/1672\/modules\/items\/111106\" target=\"_blank\"\u003eLink\u003c\/a\u003e\r\n\t\t\u003c\/div\u003e\r\n\t\t\r\n\t\t\r\n\t\t\t\u003cdiv class=\"content-item texto primary\"\u003e\r\n\t\t\t\u003cdiv class=\"icon\"\u003e\u003cimg src=\"https:\/\/assets.univesp.br\/canvas\/img\/texto2.svg\"\u003e\u003c\/div\u003e\r\n\t\t\t\u003cdiv class=\"content\"\u003e\r\n\t\t\t\u003ch5\u003eMaterial-base\u003c\/h5\u003e\r\n\t\t\t\u003ch2\u003eCompile Java\u003c\/h2\u003e\r\n\t\t\t\u003cp\u003e\u003c\/p\u003e\r\n\t\t\t\u003c\/div\u003e\r\n\t\t\t\u003cdiv class=\"arrow\"\u003e\u003cimg src=\"https:\/\/assets.univesp.br\/canvas\/img\/arrow.png\"\u003e\u003c\/div\u003e\r\n\t\t\t\u003ca class=\"overlay\" href=\"https:\/\/www.compilejava.net\/\" target=\"_blank\"\u003eLink\u003c\/a\u003e\r\n\t\t\t\u003c\/div\u003e\r\n\t\t\t\r\n\t\t\t\r\n\t\t\u003cdiv class=\"content-item video primary\"\u003e\r\n\t\t\u003cdiv class=\"icon\"\u003e\u003cimg src=\"https:\/\/assets.univesp.br\/canvas\/img\/video.svg\"\u003e\u003c\/div\u003e\r\n\t\t\u003cdiv class=\"content\"\u003e\r\n\t\t\u003ch5\u003eV\u00eddeo-base\u003c\/h5\u003e\r\n\t\t\u003ch2\u003ePrimeiro Programa em Java\u003c\/h2\u003e\r\n\t\t\u003cp\u003eMayron Cachina\u003c\/p\u003e\r\n\t\t\u003c\/div\u003e\r\n\t\t\u003cdiv class=\"arrow\"\u003e\u003cimg src=\"https:\/\/assets.univesp.br\/canvas\/img\/arrow.png\"\u003e\u003c\/div\u003e\r\n\t\t\u003ca class=\"overlay\" href=\"https:\/\/cursos.univesp.br\/courses\/1672\/modules\/items\/111892\" target=\"_blank\"\u003eLink\u003c\/a\u003e\r\n\t\t\u003c\/div\u003e\r\n\t\t\r\n\t\t\r\n\t\t\u003cdiv class=\"content-item video primary\"\u003e\r\n\t\t\u003cdiv class=\"icon\"\u003e\u003cimg src=\"https:\/\/assets.univesp.br\/canvas\/img\/video.svg\"\u003e\u003c\/div\u003e\r\n\t\t\u003cdiv class=\"content\"\u003e\r\n\t\t\u003ch5\u003eV\u00eddeo-base\u003c\/h5\u003e\r\n\t\t\u003ch2\u003ePrograma\u00e7\u00e3o Java - Primeiro Programa\u003c\/h2\u003e\r\n\t\t\u003cp\u003eMine Box\u003c\/p\u003e\r\n\t\t\u003c\/div\u003e\r\n\t\t\u003cdiv class=\"arrow\"\u003e\u003cimg src=\"https:\/\/assets.univesp.br\/canvas\/img\/arrow.png\"\u003e\u003c\/div\u003e\r\n\t\t\u003ca class=\"overlay\" href=\"https:\/\/cursos.univesp.br\/courses\/1672\/modules\/items\/111893\" target=\"_blank\"\u003eLink\u003c\/a\u003e\r\n\t\t\u003c\/div\u003e\r\n\t\t\r\n\t\t\r\n\t\t\u003cdiv class=\"content-item video primary\"\u003e\r\n\t\t\u003cdiv class=\"icon\"\u003e\u003cimg src=\"https:\/\/assets.univesp.br\/canvas\/img\/video.svg\"\u003e\u003c\/div\u003e\r\n\t\t\u003cdiv class=\"content\"\u003e\r\n\t\t\u003ch5\u003eV\u00eddeo-base\u003c\/h5\u003e\r\n\t\t\u003ch2\u003eCurso de Java - O Eclipse e o Java\u003c\/h2\u003e\r\n\t\t\u003cp\u003eeXcript\u003c\/p\u003e\r\n\t\t\u003c\/div\u003e\r\n\t\t\u003cdiv class=\"arrow\"\u003e\u003cimg src=\"https:\/\/assets.univesp.br\/canvas\/img\/arrow.png\"\u003e\u003c\/div\u003e\r\n\t\t\u003ca class=\"overlay\" href=\"https:\/\/cursos.univesp.br\/courses\/1672\/modules\/items\/111894\" target=\"_blank\"\u003eLink\u003c\/a\u003e\r\n\t\t\u003c\/div\u003e\r\n\t\t\r\n\t\t\r\n\t\t\u003cdiv class=\"content-item video primary\"\u003e\r\n\t\t\u003cdiv class=\"icon\"\u003e\u003cimg src=\"https:\/\/assets.univesp.br\/canvas\/img\/video.svg\"\u003e\u003c\/div\u003e\r\n\t\t\u003cdiv class=\"content\"\u003e\r\n\t\t\u003ch5\u003eV\u00eddeo-base\u003c\/h5\u003e\r\n\t\t\u003ch2\u003eEclipse: Criando um Projeto Java \u003c\/h2\u003e\r\n\t\t\u003cp\u003eAndr\u00e9 Santanch\u00e8\u003c\/p\u003e\r\n\t\t\u003c\/div\u003e\r\n\t\t\u003cdiv class=\"arrow\"\u003e\u003cimg src=\"https:\/\/assets.univesp.br\/canvas\/img\/arrow.png\"\u003e\u003c\/div\u003e\r\n\t\t\u003ca class=\"overlay\" href=\"https:\/\/cursos.univesp.br\/courses\/1672\/modules\/items\/111895\" target=\"_blank\"\u003eLink\u003c\/a\u003e\r\n\t\t\u003c\/div\u003e\r\n\t\t\r\n\t\t\r\n\t\t\t\u003cdiv class=\"content-item tasks secondary\"\u003e\r\n\t\t\t\u003cdiv class=\"icon\"\u003e\u003cimg src=\"https:\/\/assets.univesp.br\/canvas\/img\/atividade4.svg\"\u003e\u003c\/div\u003e\r\n\t\t\t\u003cdiv class=\"content\"\u003e\r\n\t\t\t\u003ch5\u003eExerc\u00edcio de Apoio\u003c\/h5\u003e\r\n\t\t\t\u003cp\u003eApenas para praticar. N\u00e3o vale nota.\u003c\/p\u003e\r\n\t\t\t\u003c\/div\u003e\r\n\t\t\t\u003cdiv class=\"arrow\"\u003e\u003cimg src=\"https:\/\/assets.univesp.br\/canvas\/img\/arrow.png\"\u003e\u003c\/div\u003e\r\n\t\t\t\u003ca class=\"overlay\" href=\"https:\/\/cursos.univesp.br\/courses\/1672\/modules\/items\/111889\" target=\"_blank\"\u003eLink\u003c\/a\u003e\r\n\t\t\t\u003c\/div\u003e\r\n\t\t\t\r\n\t\t\t\r\n\t\t\u003cdiv class=\"content-item forum primary\"\u003e\r\n\t\t\u003cdiv class=\"icon\"\u003e\u003cimg src=\"https:\/\/assets.univesp.br\/canvas\/img\/forum.svg\"\u003e\u003c\/div\u003e\r\n\t\t\u003cdiv class=\"content\"\u003e\r\n\t\t\u003ch5\u003eF\u00f3rum de d\u00favidas\u003c\/h5\u003e\r\n\t\t\u003ch2\u003eD\u00favidas e coment\u00e1rios da Semana 1\u003c\/h2\u003e\r\n\t\t\r\n\t\t\u003c\/div\u003e\r\n\t\t\u003cdiv class=\"arrow\"\u003e\u003cimg src=\"https:\/\/assets.univesp.br\/canvas\/img\/arrow.png\"\u003e\u003c\/div\u003e\r\n\t\t\u003ca class=\"overlay\" href=\"https:\/\/cursos.univesp.br\/courses\/1672\/modules\/items\/112095\" target=\"_blank\"\u003eLink\u003c\/a\u003e\r\n\t\t\u003c\/div\u003e\r\n\t\t\r\n\t\t\r\n\t\t\u003cdiv class=\"content-item guide box\"\u003e\r\n\t\t\u003cdiv class=\"content\"\u003e\r\n\t\t\u003ch2\u003eO que vem por a\u00ed\u003c\/h2\u003e\r\n\t\t \u003cdiv class=\"description\"\u003e\r\n\u003cp\u003eNa pr\u00f3xima semana, come\u00e7aremos a construir um programa que fa\u00e7a mais do que simplesmente escrever uma mensagem na tela.\u003c\/p\u003e\r\n\u003c\/div\u003e\r\n\t\t\u003c\/div\u003e\r\n\t\t\u003c\/div\u003e\r\n\t\t\r\n\t\t\r\n\t\t\t\t\t\u003c\/div\u003e\r\n\t\t\t\t\t\u003c\/div\u003e\r\n\t\t\t\t\u003c\/div\u003e"
+      //   },
+      //   "WIKI_PAGE_REVISION": "7",
+      //   "WIKI_PAGE_SHOW_PATH": "\/courses\/1672\/pages\/semana-1",
+      //   "WIKI_PAGE_EDIT_PATH": "\/courses\/1672\/pages\/semana-1\/edit",
+      //   "WIKI_PAGE_HISTORY_PATH": "\/courses\/1672\/pages\/semana-1\/revisions",
+      //   "COURSE_ID": "1672",
+      //   "MODULES_PATH": "\/courses\/1672\/modules",
+      //   "wiki_page_menu_tools": [],
+      //   "DISPLAY_SHOW_ALL_LINK": false,
+      //   "badge_counts": {
+      //     "submissions": 0
+      //   },
+      //   "notices": []
+      // };
+    </script>
+
+    <script src="arquivos/navigation_header.js" defer="defer"></script>
+    <script src="arquivos/download" defer="defer"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/js/all.min.js" integrity="sha256-+Q/z/qVOexByW1Wpv81lTLvntnZQVYppIL1lBdhtIq0=" crossorigin="anonymous"></script>
+
+  </div> <!-- #application -->
+
+</body>
+
+</html>
